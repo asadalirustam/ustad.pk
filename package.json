@@ -1,0 +1,22 @@
+{
+  "name": "ustaad-pk",
+  "version": "1.0.0",
+  "description": "AI-Powered Local Service Marketplace in Pakistan",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "dev": "concurrently \"npm run server:dev\" \"npm run client\""
+  },
+  "keywords": [
+    "ustaad.pk",
+    "service-marketplace",
+    "pakistan",
+    "local-services",
+    "smart-matching"
+  ],
+  "author": "Ustaad.pk Team",
+  "license": "ISC"
+}
