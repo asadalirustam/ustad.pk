@@ -18,5 +18,8 @@
     "smart-matching"
   ],
   "author": "Ustaad.pk Team",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
 }
